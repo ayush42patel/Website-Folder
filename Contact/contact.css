@@ -1,0 +1,206 @@
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul li{
+    padding: 0 0px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 0%;
+    background-color: transparent;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+  
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    height: 5vh;
+    font-size: 20;
+}
+nav a:hover{
+    color:rgb(13, 238, 88);
+}
+header {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    height: 10vh;
+}
+.m{
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%100%;
+}
+h2{
+    color:#7858f9;
+}
+div a{
+    color:black;
+}
+div a:hover{
+    color:darkviolet;
+}
+.contact {
+    background-color: white;
+}
+
+.contact .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contact .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact .item .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact .item .heading{
+    text-align: start;
+    max-width: 80%;
+}
+
+.contact .item form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    background-color: #00040b;
+}
+
+.contact .item .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.contact .item .row .card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid #eee;
+    border-top: 2px solid #fff;
+    border-bottom: 8px solid transparent;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+.contact .item .row .card:hover {
+    background-color: #a0b3e511;
+    border-bottom: 8px solid #f35405;
+
+}
+
+.contact .item .card .line {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px -10px;
+}
+
+.contact .item .card i {
+    font-size: 80px;
+}
+
+.contact .item .card h4 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #f35405;
+
+}
+
+.contact .item .card p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    transition: align-items 1s;
+}
+
+.contact .item .card:hover p {
+    border-bottom: 1px solid transparent;
+    display: flex;
+    align-items: flex-end;
+}
+footer {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+    color: black;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #4fe110;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.button:hover{
+    color:white;
+    background-color: #4fe110;
+}
+.a.button:visited{
+    color: black;
+    background-color: white;
+}
+.form{
+    text-align: center;
+}
